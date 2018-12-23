@@ -14,6 +14,8 @@ function formatDate(dateStr) {
          minutes = date.getMinutes() < 10? `0${date.getMinutes()}`: date.getMinutes();
 
     // For parsing on a webpage the colon needs to be replaced with the html entity
+    // TODO: add the 'just now', 'half an hour ago', 'an hour ago', 'a few hours ago', 'earlier today' 
+    //  0-20min, 20-50min, 50min-110min, check if it was the same day
     if(date.getDate() == new Date().getDate()){
         return `Today, ${hours}&#58;${minutes}`;
     } else if(date.getDate()+1 ===  new Date().getDate()) {
