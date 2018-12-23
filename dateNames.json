@@ -1,0 +1,5 @@
+{
+    "weekDays": ["Sunday", "Monday", "Tuesday", "Wendesday", "Thursday", "Friday", "Saterday"],
+    "months": ["January", "February", "March","April","May","June","July","August","September","October","November","December"],
+    "postFix": ["st", "nd", "rd", "th"]
+}
