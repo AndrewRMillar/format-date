@@ -3,6 +3,8 @@ const months = ['January', 'February', 'March','April','May','June','July','Augu
 const postFix = ['st', 'nd', 'rd', 'th']
 
 
+
+// TODO: make the language changable, by adding a parame and refering to a language JSON
 function formatDate(dateStr) {
     // Input in the form of a Epoch time stamp, a date string or comma seperated time idication
     // Output in the form "Thursday, 18 May 1978" is date is more than 48 hours ago, else a different 
